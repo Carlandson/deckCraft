@@ -2,8 +2,8 @@
 set -o errexit  # exit on error
 
 echo "Installing python dependencies"
-pip install -U pip
-pip install -r requirements.txt
+pip3 install -U pip
+pip3 install -r requirements.txt
 
 echo "Building JS & CSS"
 npm install
